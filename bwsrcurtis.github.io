@@ -111,6 +111,7 @@
       <div class="row icons">
         <div class="col">
           <i class="devicon-python-plain-wordmark tools"></i>
+          <i class="devicon-flask-original tools"></i>
           <i class="devicon-selenium-original tools"></i>
           <i class="devicon-mysql-plain-wordmark tools"></i>
           <i class="devicon-github-original-wordmark tools"></i>
