@@ -159,6 +159,7 @@ h2 {
 
 .project-img {
   max-height: 300px;
+  height: auto;
   width: 700px;
 }
 .description > h6 {
