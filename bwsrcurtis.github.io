@@ -56,7 +56,7 @@
         class="row d-flex flex-wrap py-3 align-items-center justify-content-between"
       >
         <a
-          href="https://bwsrcurtis.github.io/"
+          href="index.html"
           class="text-dark text-decoration-none col-md-7 col-sm-12"
         >
           <h1 class="header-name">Curtis Bowser</h1>
@@ -64,7 +64,7 @@
         <div class="col-md-5 col-sm-12">
           <ul class="nav nav-pills header-buttons float-end">
             <li class="nav-item">
-              <a href="https://bwsrcurtis.github.io/" class="nav-link active" aria-current="page"
+              <a href="index.html" class="nav-link active" aria-current="page"
                 >Home</a
               >
             </li>
@@ -96,7 +96,7 @@
               • Being able to build something out 
               and have instant feedback on your work is incredibly fulfilling<br>
               • There are infinite things to learn. You will never know everything. I can always continue learning<br><br><br>
-              Since beginning, I have focused on Python, Flask, Django for the backend, and Bootstrap, HTML, and CSS for the frontend. 
+              Since beginning, I have focused on Python and Flask for the backend, and Bootstrap, HTML, CSS, and JavaScript for the frontend. 
               This site is an example of the advancement of my frontend skills. Now, with a catalog of projects behind me, I am ready to offer my services.
             </p>
           </div>
@@ -111,18 +111,17 @@
       <div class="row icons">
         <div class="col">
           <i class="devicon-python-plain-wordmark tools"></i>
-          <i class="devicon-django-plain-wordmark tools"></i>
-          <i class="devicon-flask-original-wordmark tools"></i>
           <i class="devicon-selenium-original tools"></i>
           <i class="devicon-mysql-plain-wordmark tools"></i>
+          <i class="devicon-github-original-wordmark tools"></i>
         </div>
       </div>
       <div class="row icons">
         <div class="col">
-          <i class="devicon-github-original-wordmark tools"></i>
           <i class="devicon-html5-plain-wordmark tools"></i>
-          <i class="devicon-bootstrap-plain-wordmark tools"></i>
           <i class="devicon-css3-plain-wordmark tools"></i>
+          <i class="devicon-bootstrap-plain-wordmark tools"></i>
+          <i class="devicon-javascript-plain tools"></i>
         </div>
       </div>
     </div>
