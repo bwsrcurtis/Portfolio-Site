@@ -162,6 +162,12 @@ h2 {
   height: auto;
   width: 700px;
 }
+
+.project-img:hover {
+  opacity: 0.75;
+  filter: drop-shadow(8px 8px 10px #3c6360);
+}
+
 .description > h6 {
   color: #3c6360;
 }
