@@ -1,23 +1,37 @@
+:root {
+  --background: #fbfaf8;
+  --light-pink: #e4b0ab;
+  --pink: #f39189;
+  --green: #3c6360;
+  --gray: #f8f3f0;
+  --white: white;
+  --black: black;
+  --body-text: black;
+}
+
 .tools {
   font-size: 5rem;
-  color: #e4b0ab;
+  color: var(--light-pink);
   text-align: center;
   margin: 2rem 2rem;
-  text-shadow: 1px 2px 1px black;
+  text-shadow: 1px 2px 1px var(--black);
 }
+
 body {
-  background-color: #fbfaf8;
+  background-color: var(--background);
   font-family: "Open Sans";
+  color: var(--body-text);
 }
 h1,
 h2 {
   font-family: "Playfair Display";
   font-weight: bold;
+  color: var(--body-text)
 }
 .btn {
-  background-color: #f39189;
-  border-color: #f39189;
-  color: white;
+  background-color: var(--pink);
+  border-color: var(--pink);
+  color: var(--white);
 }
 
 .btn:hover,
@@ -25,15 +39,15 @@ h2 {
 .btn-default:active,
 .btn-default.active,
 .open .dropdown-toggle.btn-default {
-  background-color: #3c6360;
-  border-color: #3c6360;
-  color: white;
+  background-color: var(--green);
+  border-color: var(--green);
+  color: var(--white);
 }
 
 /* Header */
 
 .header {
-  background-color: #fbfaf8;
+  background-color: var(--background);
   padding-left: 4rem;
   padding-right: 4rem;
 }
@@ -43,24 +57,29 @@ h2 {
 }
 
 .nav-pills > li > a.active {
-  background-color: #f39189 !important;
-  color: white !important;
+  background-color: var(--pink) !important;
+  color: var(--white) !important;
 }
 
 .nav-pills > li > a.active:hover {
-  background-color: #3c6360 !important;
-  color: white !important;
+  background-color: var(--green) !important;
+  color: var(--white) !important;
 }
 
 .nav-pills > li > a:hover {
-  background-color: #3c6360;
-  color: white !important;
+  background-color: var(--green);
+  color: var(--white) !important;
 }
 
 .nav-link {
-  color: black;
+  color: var(--black);
 }
-
+#sun {
+  display: none ;
+}
+#moon {
+  display: inline;
+}
 .header-name {
   text-align: left;
 }
@@ -68,7 +87,7 @@ h2 {
 /* Footer */
 
 .bottom-container {
-  background-color: #3c6360;
+  background-color: var(--green);
   margin-block-end: 0px;
   padding-top: 30px;
   padding-bottom: 20px;
@@ -77,21 +96,21 @@ h2 {
 }
 
 .footer-link {
-  color: #e4b0ab;
-  text-shadow: 2px 2px black;
+  color: var(--light-pink);
+  text-shadow: 2px 2px var(--black);
   padding: 0 2rem;
   font-size: 2rem;
 }
 
 .footer-link:hover {
-  color: #f39189;
+  color: var(--pink);
 }
 
 .copyright {
   margin-block-end: 0px;
   margin-top: 0.75rem;
   font-size: 0.75rem;
-  color: #f8f3f0;
+  color: var(--gray);
 }
 
 /*Index Stuff*/
@@ -101,14 +120,14 @@ h2 {
 }
 
 .icon-container {
-  background-color: #fbfaf8;
+  background-color: var(--background);
   padding-bottom: 3rem;
   padding-top: 4rem;
 }
 
 .icon-heading {
   text-align: center;
-  color: #3c6360;
+  color: var(--green);
 }
 /*About Me*/
 .home-container {
@@ -116,15 +135,15 @@ h2 {
 }
 
 .about-container {
-  background-color: #f8f3f0;
+  background-color: var(--gray);
 }
 .about-me {
   margin-left: 0rem;
-  color: #3c6360;
+  color: var(--green);
 }
 
 .about-me-desc {
-  color: black;
+  color: var(--black);
 }
 
 .img-about {
@@ -145,7 +164,7 @@ h2 {
 }
 
 .project-heading {
-  color: #3c6360;
+  color: var(--green);
 }
 
 .project-container > div > .description-right {
@@ -165,40 +184,40 @@ h2 {
 
 .project-img:hover {
   opacity: 0.75;
-  filter: drop-shadow(8px 8px 10px #3c6360);
+  filter: drop-shadow(8px 8px 10px var(--green));
 }
 
 .description > h6 {
-  color: #3c6360;
+  color: var(--green);
 }
 
 /*Contact*/
 .contact-container {
-  background-color: #f8f3f0;
+  background-color: var(--gray);
   padding: 5rem 4rem 2.5rem 4rem;
   margin: 2rem auto;
   border: 0 1rem;
 }
 
 .contact-title {
-  color: #3c6360;
+  color: var(--green);
 }
 
 .contact-title2 {
-  color: #3c6360;
+  color: var(--green);
   margin: 0 0 2rem 0;
 }
 
 .fa {
-  color: #e4b0ab;
+  color: var(--light-pink);
 }
 
 .social-link {
-  color: #e4b0ab;
+  color: var(--light-pink);
 }
 
 .social-link:hover {
-  color: #f39189;
+  color: var(--pink);
 }
 
 .address-col {
@@ -207,7 +226,7 @@ h2 {
 
 .address {
   margin-top: 2rem;
-  color: #3c6360;
+  color: var(--green);
   font-size: 10rem;
-  text-shadow: 3px 3px black;
+  text-shadow: 3px 3px var(--black);
 }
