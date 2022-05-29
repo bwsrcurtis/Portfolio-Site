@@ -37,6 +37,7 @@
       integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
       crossorigin="anonymous"
     ></script>
+    <script src="script.js"></script>
     <title>Curtis Bowser - Software Developer</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -76,6 +77,10 @@
             </li>
             <li class="nav-item">
               <a href="Bowser Curtis Resume.pdf" class="nav-link">Resume</a>
+            </li>
+            <li class="nav-item">
+              <i class="day-night nav-link fa fa-solid fa-moon", id='moon', onclick="light_dark()"></i>
+              <i class="day-night nav-link fa fa-solid fa-sun", id='sun', onclick="light_dark()"></i>
             </li>
           </ul>
         </div>
