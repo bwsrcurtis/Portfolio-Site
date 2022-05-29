@@ -37,7 +37,6 @@
       integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
       crossorigin="anonymous"
     ></script>
-    <script src="script.js"></script>
     <title>Curtis Bowser - Software Developer</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -45,28 +44,28 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Playfair+Display:wght@400;700&display=swap"
       rel="stylesheet"
-    />
+      />
     <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
     />
   </head>
   <body>
     <div class="header container-fluid">
       <div
         class="row d-flex flex-wrap py-3 align-items-center justify-content-between"
-      >
-        <a
-          href="index.html"
-          class="text-dark text-decoration-none col-md-7 col-sm-12"
         >
+        <a
+        href="index.html"
+          class="text-dark text-decoration-none col-md-7 col-sm-12"
+          >
           <h1 class="header-name">Curtis Bowser</h1>
         </a>
         <div class="col-md-5 col-sm-12">
           <ul class="nav nav-pills header-buttons float-end">
             <li class="nav-item">
               <a href="index.html" class="nav-link active" aria-current="page"
-                >Home</a
+              >Home</a
               >
             </li>
             <li class="nav-item">
@@ -133,25 +132,26 @@
     </div>
     <div class="bottom-container">
       <a class="footer-link" href="https://www.linkedin.com/in/bwsrcurtis/"
-        ><i class="fa-brands fa-linkedin"></i
-      ></a>
-      <a class="footer-link" href="https://github.com/bwsrcurtis"
+      ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a class="footer-link" href="https://github.com/bwsrcurtis"
         ><i class="fa-brands fa-github"></i
-      ></a>
+          ></a>
       <a class="footer-link" href="https://www.kaggle.com/curtisbowser"
-        ><i class="fa-brands fa-kaggle"></i
-      ></a>
+      ><i class="fa-brands fa-kaggle"></i
+        ></a>
       <p class="copyright">© 2022 Curtis Bowser</p>
     </div>
+    <script src="script.js"></script>
     <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-      crossorigin="anonymous"
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"
     ></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
       integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
       crossorigin="anonymous"
-    ></script>
-  </body>
+      ></script>
+    </body>
 </html>
