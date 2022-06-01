@@ -1,9 +1,9 @@
 :root {
   --background: #fbfaf8;
-  --light-pink: #e4b0ab;
-  --pink: #f39189;
-  --green: #3c6360;
-  --gray: #f8f3f0;
+  --light-blue: #5588A3;
+  --blue: #145374;
+  --navy: #00334E;
+  --gray: #E8E8E8;
   --white: white;
   --black: black;
   --body-text: black;
@@ -11,7 +11,7 @@
 
 .tools {
   font-size: 5rem;
-  color: var(--light-pink);
+  color: var(--light-blue);
   text-align: center;
   margin: 2rem 2rem;
   text-shadow: 1px 2px 1px var(--black);
@@ -26,11 +26,11 @@ h1,
 h2 {
   font-family: "Playfair Display";
   font-weight: bold;
-  color: var(--body-text)
+  color: var(--body-text);
 }
 .btn {
-  background-color: var(--pink);
-  border-color: var(--pink);
+  background-color: var(--blue);
+  border-color: var(--blue);
   color: var(--white);
 }
 
@@ -39,8 +39,8 @@ h2 {
 .btn-default:active,
 .btn-default.active,
 .open .dropdown-toggle.btn-default {
-  background-color: var(--green);
-  border-color: var(--green);
+  background-color: var(--navy);
+  border-color: var(--navy);
   color: var(--white);
 }
 
@@ -57,17 +57,17 @@ h2 {
 }
 
 .nav-pills > li > a.active {
-  background-color: var(--pink) !important;
+  background-color: var(--blue) !important;
   color: var(--white) !important;
 }
 
 .nav-pills > li > a.active:hover {
-  background-color: var(--green) !important;
+  background-color: var(--navy) !important;
   color: var(--white) !important;
 }
 
 .nav-pills > li > a:hover {
-  background-color: var(--green);
+  background-color: var(--navy);
   color: var(--white) !important;
 }
 
@@ -75,7 +75,7 @@ h2 {
   color: var(--black);
 }
 #sun {
-  display: none ;
+  display: none;
 }
 #moon {
   display: inline;
@@ -87,7 +87,7 @@ h2 {
 /* Footer */
 
 .bottom-container {
-  background-color: var(--green);
+  background-color: var(--navy);
   margin-block-end: 0px;
   padding-top: 30px;
   padding-bottom: 20px;
@@ -96,14 +96,14 @@ h2 {
 }
 
 .footer-link {
-  color: var(--light-pink);
+  color: var(--light-blue);
   text-shadow: 2px 2px var(--black);
   padding: 0 2rem;
   font-size: 2rem;
 }
 
 .footer-link:hover {
-  color: var(--pink);
+  color: var(--blue);
 }
 
 .copyright {
@@ -127,7 +127,7 @@ h2 {
 
 .icon-heading {
   text-align: center;
-  color: var(--green);
+  color: var(--navy);
 }
 /*About Me*/
 .home-container {
@@ -139,7 +139,7 @@ h2 {
 }
 .about-me {
   margin-left: 0rem;
-  color: var(--green);
+  color: var(--navy);
 }
 
 .about-me-desc {
@@ -164,7 +164,7 @@ h2 {
 }
 
 .project-heading {
-  color: var(--green);
+  color: var(--navy);
 }
 
 .project-container > div > .description-right {
@@ -184,11 +184,11 @@ h2 {
 
 .project-img:hover {
   opacity: 0.75;
-  filter: drop-shadow(8px 8px 10px var(--green));
+  filter: drop-shadow(8px 8px 10px var(--navy));
 }
 
 .description > h6 {
-  color: var(--green);
+  color: var(--navy);
 }
 
 /*Contact*/
@@ -200,24 +200,24 @@ h2 {
 }
 
 .contact-title {
-  color: var(--green);
+  color: var(--navy);
 }
 
 .contact-title2 {
-  color: var(--green);
+  color: var(--navy);
   margin: 0 0 2rem 0;
 }
 
 .fa {
-  color: var(--light-pink);
+  color: var(--light-blue);
 }
 
 .social-link {
-  color: var(--light-pink);
+  color: var(--light-blue);
 }
 
 .social-link:hover {
-  color: var(--pink);
+  color: var(--blue);
 }
 
 .address-col {
@@ -226,7 +226,7 @@ h2 {
 
 .address {
   margin-top: 2rem;
-  color: var(--green);
+  color: var(--navy);
   font-size: 10rem;
   text-shadow: 3px 3px var(--black);
 }
