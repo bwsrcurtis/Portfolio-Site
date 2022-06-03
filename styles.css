@@ -15,6 +15,11 @@
   text-align: center;
   margin: 2rem 2rem;
   text-shadow: 1px 2px 1px var(--black);
+  transition: all .2s ease-in-out;
+}
+.tools:hover {
+  color: var(--gray);
+  font-size: 5.5rem;
 }
 
 body {
@@ -76,12 +81,19 @@ h2 {
 }
 #sun {
   display: none;
+  cursor: pointer;
 }
 #moon {
   display: inline;
+  cursor: pointer;
 }
 .header-name {
   text-align: left;
+  transition: all .2s ease-in-out;
+}
+.header-name:hover {
+  text-shadow: 1px 1px 2px #00334E;
+  color: var(--light-blue)
 }
 
 /* Footer */
@@ -100,6 +112,7 @@ h2 {
   text-shadow: 2px 2px var(--black);
   padding: 0 2rem;
   font-size: 2rem;
+  transition: all .2s ease-in-out;
 }
 
 .footer-link:hover {
@@ -180,6 +193,7 @@ h2 {
   max-height: 300px;
   height: auto;
   width: 700px;
+  transition: all .3s ease-in-out;
 }
 
 .project-img:hover {
@@ -226,7 +240,7 @@ h2 {
 
 .address {
   margin-top: 2rem;
-  color: var(--navy);
+  color: var(--light-blue);
   font-size: 10rem;
   text-shadow: 3px 3px var(--black);
 }
