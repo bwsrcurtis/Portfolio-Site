@@ -159,10 +159,16 @@ h2 {
   color: var(--black);
 }
 
-.img-about {
+.img-about-light {
   max-width: 100%;
   height: auto;
   border-radius: 8px;
+}
+.img-about-dark {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: none;
 }
 
 /*Project Container*/
