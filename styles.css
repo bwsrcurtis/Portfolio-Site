@@ -218,7 +218,9 @@ h2 {
   margin: 1rem auto;
   border: 0 1rem;
 }
-
+.contact-text {
+  margin: 1rem 0;
+}
 .contact-title {
   color: var(--navy);
 }
