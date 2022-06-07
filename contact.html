@@ -64,7 +64,7 @@
       href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
     />
   </head>
-  <body>
+  <body id="body">
     <div class="header container-fluid">
       <div
         class="row d-flex flex-wrap py-3 align-items-center justify-content-between"
@@ -243,5 +243,15 @@
       integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#body").fadeIn(500, function() {
+            })
+            $(".header").slideDown(750, function() {
+            })
+
+            })
+    </script>
   </body>
 </html>
