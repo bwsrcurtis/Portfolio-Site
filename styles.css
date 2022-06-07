@@ -192,8 +192,9 @@ h2 {
 
 /*Project Container*/
 .project-container {
-  margin: 2rem 0rem 0rem 0rem;
-  padding: 0 4rem;
+  margin: 0rem 0rem 0rem 0rem;
+  padding: 1rem 4rem;
+  background-color: var(--gray);
 }
 .project-heading {
   color: var(--navy);
@@ -270,6 +271,7 @@ h2 {
 }
 
 .contact-cont {
+  background-color: var(--background);
   margin: 5rem auto;
   padding: 0 4rem;
 }
@@ -281,4 +283,11 @@ h2 {
 }
 .form-group {
   margin-bottom: .5rem;
+}
+.get-in-touch {
+  background-color: var(--gray);
+  padding: 1rem 0;
+}
+.contact-row {
+  padding: 1rem 0;
 }
