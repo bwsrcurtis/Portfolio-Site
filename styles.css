@@ -11,9 +11,9 @@
 
 .tools {
   font-size: 5rem;
+  padding: 2rem 2rem !important;
   color: var(--light-blue);
   text-align: center;
-  margin: 2rem 2rem;
   text-shadow: 1px 2px 1px var(--black);
   transition: all .2s ease-in-out;
 }
@@ -59,6 +59,9 @@ h2 {
   padding-left: 4rem;
   padding-right: 4rem;
   display: none;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .nav-pills > li {
@@ -94,9 +97,10 @@ h2 {
 .header-name {
   text-align: left;
   transition: all .2s ease-in-out;
+  color: var(--navy)
 }
 .header-name:hover {
-  text-shadow: 1px 1px 2px #00334E;
+  text-shadow: 2px 1px 2px #00334E;
   color: var(--light-blue)
 }
 @media screen and (max-width: 767px) {
@@ -149,8 +153,7 @@ h2 {
 
 .icon-container {
   background-color: var(--background);
-  /* padding-bottom: 3rem; */
-  /* padding-top: 4rem; */
+  padding: 1rem 0rem;
 }
 
 .icon-heading {
