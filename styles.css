@@ -169,18 +169,17 @@ h2 {
   background-color: var(--gray);
 }
 .about-me {
-  margin-left: 0rem;
+  margin: 2rem 0;
   color: var(--navy);
+  border-style: solid;
+  border-width: 0 0 0 2px;
+  border-color: var(--light-blue);
 }
 
 .about-me-desc {
   color: var(--black);
 }
-@media screen and (max-width: 767px) {
-  .about-me-desc {
-    text-align: center;
-  }
-}
+
 .img-about-light {
   max-width: 100%;
   height: auto;
@@ -205,27 +204,45 @@ h2 {
 
 .project-container > div > .description-left {
   text-align: right;
-  padding: 2rem;
+  padding: 1rem 0 1rem 20%;
 }
 
 .project-container > div > .description-right {
   text-align: left;
-  padding: 2rem;
+  padding: 1rem 20% 1rem 0;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 760px) {
+  .project-img-div-left {
+    padding-right: 0 !important;
+  }
+  .project-img-div-right {
+    float: left;
+    padding-left: 0 !important;
+  }
   .project-container > div > .description-left {
-    text-align: center;
+    text-align: left;
+    padding: 1rem 0rem 1rem 0;
+    clear: both;
+    float: right;
   }
   .project-container > div > .description-right {
-    text-align: center;
+    text-align: left;
+    padding: 1rem 0rem 1rem 0;
   }
 }
 
 .project-row {
   margin: 2rem 0;
 }
-
+.project-img-div-left {
+  padding-right: 2rem;
+  padding-left: 0;
+}
+.project-img-div-right {
+  padding-left: 2rem;
+  padding-right: 0;
+}
 .project-img {
   max-height: 300px;
   height: auto;
@@ -254,15 +271,20 @@ h2 {
 }
 .contact-title {
   color: var(--navy);
+  text-align: left;
 }
 
 .contact-title2 {
-  color: var(--navy);
+  color: var(--black);
   margin: 0 0 2rem 0;
+  padding-left: 1rem;
+  border-style: solid;
+  border-width: 0 0 0 2px;
+  border-color: var(--light-blue);
 }
 
 .fa {
-  color: var(--light-blue);
+  color: var(--navy);
 }
 
 .social-link {
@@ -275,7 +297,7 @@ h2 {
 
 .contact-cont {
   background-color: var(--background);
-  margin: 5rem auto;
+  margin: 2rem auto 2rem auto;
   padding: 0 4rem;
 }
 .contact-submit {
@@ -292,5 +314,18 @@ h2 {
   padding: 1rem 0;
 }
 .contact-row {
-  padding: 1rem 0;
+  padding: 2rem 0;
+}
+.form-email {
+  width: 40%;
+  margin-left: 10%;
+  float: left;
+}
+.form-name {
+  width: 40%;
+  float: left;
+}
+.form-message {
+  width: 90%;
+  clear: both;
 }
