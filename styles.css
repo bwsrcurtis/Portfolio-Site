@@ -245,7 +245,7 @@ input:checked ~ .menu-content {
   background-color: var(--gray);
 }
 .project-heading {
-  color: var(--navy);
+  color: var(--body-text);
   padding-left: 1rem;
   border-style: solid;
   border-width: 0 0 0 2px;
