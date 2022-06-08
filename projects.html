@@ -59,50 +59,91 @@
       href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
     />
   </head>
-  <body id="body" style="display:inline">
-    <div class="header container-fluid" style="display:block">
+  <body id="body">
+    <div class="header container-fluid">
       <div
-        class="row d-flex flex-wrap py-3 align-items-center justify-content-between"
+      class="row d-flex flex-wrap py-3 align-items-center justify-content-between"
       >
-        <a
-          href="index.html"
-          class="text-dark text-decoration-none col-lg-7 col-md-12 col-sm-12"
-        >
-          <h1 class="header-name">Curtis Bowser</h1>
-        </a>
-        <div class="col-lg-5 col-md-auto col-sm-auto">
+      <a
+      href="index.html"
+      class="text-dark text-decoration-none col-lg-4 col-md-12 col-sm-12"
+      >
+      <h1 class="header-name">Curtis Bowser</h1>
+    </a>
+    <!-- USING CHECKBOX HACK -->
+    <div class="collapsible-menu">
+      <ul >
+<input type="checkbox" id="checkbox-toggle" />
+<label for="checkbox-toggle" class="hamburger">&#9776;</label>
+<div class="menu-content menu-items">
+ <ul class="nav nav-pills header-buttons">
+   <div class="nav-item"><a href="index.html" class="nav-link" aria-current="page"
+    >Home</a></div>
+   <div class="nav-item"><a href="projects.html" class="nav-link active">Projects</a></div>
+   <div class="nav-item">
+    <a href="contact.html" class="nav-link">Get in Touch</a>
+  </div>
+  <div class="nav-item">
+    <a href="Bowser Curtis Resume.pdf" class="nav-link" target="_blank">Resume</a></div>
+    <div class="nav-item">
+      <i
+      class="day-night nav-link fa fa-solid fa-moon"
+      ,
+      id="moon"
+      ,
+      onclick="light_dark()"
+      ></i>
+      <i
+      class="day-night nav-link fa fa-solid fa-sun"
+      ,
+      id="sun"
+      ,
+      onclick="light_dark()"
+      ></i>
+    </div>
+ </ul>
+ </div>
+</ul>
+</div>
+        <div class="col-lg-8 col-md-auto col-sm-auto">
           <ul class="nav nav-pills header-buttons float-lg-end">
-            <li class="nav-item">
+            <li class="nav-item bar-item">
               <a href="index.html" class="nav-link" aria-current="page"
-                >Home</a
+              >Home</a
               >
             </li>
-            <li class="nav-item">
+            <li class="nav-item bar-item">
               <a href="projects.html" class="nav-link active">Projects</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item bar-item">
               <a href="contact.html" class="nav-link">Get in Touch</a>
             </li>
-            <li class="nav-item">
-              <a href="Bowser Curtis Resume.pdf" class="nav-link" target="_blank">Resume</a>
+            <li class="nav-item bar-item">
+              <a
+              href="Bowser Curtis Resume.pdf"
+              class="nav-link"
+              target="_blank"
+              >Resume</a
+              >
             </li>
-            <li class="nav-item">
+            <li class="nav-item bar-item">
               <i
-                class="day-night nav-link fa fa-solid fa-moon"
-                ,
-                id="moon"
-                ,
-                onclick="light_dark()"
+              class="day-night nav-link fa fa-solid fa-moon"
+              ,
+              id="moon"
+              ,
+              onclick="light_dark()"
               ></i>
               <i
-                class="day-night nav-link fa fa-solid fa-sun"
-                ,
-                id="sun"
-                ,
-                onclick="light_dark()"
+              class="day-night nav-link fa fa-solid fa-sun"
+              ,
+              id="sun"
+              ,
+              onclick="light_dark()"
               ></i>
             </li>
-          </ul>
+    </div>
+    </ul>
         </div>
       </div>
     </div>
@@ -212,18 +253,15 @@
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"
       ></script>
-      <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            $("#body").css('display', 'inline'),
-            $(".header").css('display', 'block')
-            // $(".header").slideDown(2250, function() {
-            // }),
-            // $(".project-container").fadeIn(2000, function() {
-
-            // })
-          })
-            
-    </script> -->
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+      <script>
+          $(document).ready(function() {
+              $("#body").fadeIn(1500, function() {
+              })
+              $(".header").slideDown(2000, function() {
+              })
+  
+              })
+      </script>
     </body>
   </html>
