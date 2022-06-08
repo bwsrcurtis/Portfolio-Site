@@ -246,6 +246,10 @@ input:checked ~ .menu-content {
 }
 .project-heading {
   color: var(--navy);
+  padding-left: 1rem;
+  border-style: solid;
+  border-width: 0 0 0 2px;
+  border-color: var(--light-blue);
 }
 
 .project-container > div > .description-left {
