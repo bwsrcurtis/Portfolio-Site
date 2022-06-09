@@ -1,4 +1,6 @@
 # bwsrcurtis.github.io
 A place to showcase my work
 
-![Capture](https://user-images.githubusercontent.com/44857032/172025871-1f2ec7e4-e569-4e57-902f-73496d9a0a36.JPG)
+![Home-light](https://user-images.githubusercontent.com/44857032/172950542-c42d6284-7c66-40e8-8cf8-1ee8d03939da.jpg)
+
+![Home-dark](https://user-images.githubusercontent.com/44857032/172950555-92b6c7a9-cf54-44ba-9d08-b73269aed4f3.jpg)
