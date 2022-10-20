@@ -243,7 +243,7 @@ input:checked ~ .menu-content {
 /*Project Container*/
 .project-container {
   margin: 0rem 0rem 0rem 0rem;
-  padding: 1rem 4rem;
+  padding: 1rem 12rem;
   background-color: var(--gray);
 }
 .project-heading {
@@ -265,6 +265,9 @@ input:checked ~ .menu-content {
 }
 
 @media screen and (max-width: 760px) {
+  .project-container {
+    padding: 1rem 2rem;
+  }
   .project-img-div-left {
     padding-right: 0 !important;
   }
