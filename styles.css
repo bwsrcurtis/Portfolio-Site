@@ -264,10 +264,19 @@ input:checked ~ .menu-content {
   padding: 1rem 20% 1rem 0;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 1300px) {
   .project-container {
     padding: 1rem 2rem;
+    margin-top: 0;
+    padding-top: .25rem;
   }
+  .project-heading {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 760px) {
+
   .project-img-div-left {
     padding-right: 0 !important;
   }
