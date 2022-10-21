@@ -248,6 +248,9 @@ input:checked ~ .menu-content {
 }
 .project-heading {
   color: var(--body-text);
+  /* padding-left: 1rem; */
+}
+.project-title-div {
   padding-left: 1rem;
   border-style: solid;
   border-width: 0 0 0 2px;
@@ -340,7 +343,18 @@ input:checked ~ .menu-content {
 
 .contact-title2 {
   color: var(--black);
-  margin: 0 0 2rem 0;
+  margin: 0 0 0 0;
+  /* padding-left: 1rem;
+  border-style: solid;
+  border-width: 0 0 0 2px;
+  border-color: var(--light-blue); */
+}
+
+.body-col {
+  margin: 2rem 0 0 0;
+}
+
+.project-title-div {
   padding-left: 1rem;
   border-style: solid;
   border-width: 0 0 0 2px;
@@ -392,4 +406,46 @@ input:checked ~ .menu-content {
 .form-message {
   width: 90%;
   clear: both;
+}
+
+.typing-hello {
+  width: 4.75ch;
+  animation: typing .75s steps(6), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 1px solid;
+  font-family: "Playfair Display";
+  font-weight: bold;
+}
+
+.typing-projects {
+  width: 6.7ch;
+  animation: typing .75s steps(8), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 1px solid;
+  font-family: "Playfair Display";
+  font-weight: bold;
+}
+
+.typing-contact {
+  width: 10ch;
+  animation: typing .75s steps(11), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 1px solid;
+  font-family: "Playfair Display";
+  font-weight: bold;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
 }
