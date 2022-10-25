@@ -326,6 +326,11 @@ input:checked ~ .menu-content {
   color: var(--navy);
 }
 
+.subdescription {
+  margin-top: 1rem;
+}
+
+
 /*Contact*/
 .contact-container {
   background-color: var(--gray);
