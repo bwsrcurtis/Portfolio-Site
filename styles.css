@@ -380,6 +380,7 @@ input:checked ~ .menu-content {
 
 .contact-cont {
   background-color: var(--background);
+  border-radius: 4px;
   margin: 2rem auto 2rem auto;
   padding: 0 4rem;
 }
