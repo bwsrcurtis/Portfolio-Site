@@ -1,6 +1,6 @@
-window.onload = function() {
-    emailjs.init("tpwoKXfz6PV_yP3vO");
-    document
+window.onload = function () {
+  emailjs.init("tpwoKXfz6PV_yP3vO");
+  document
     .getElementById("myForm")
     .addEventListener("submit", function (event) {
       event.preventDefault();
@@ -16,7 +16,7 @@ window.onload = function() {
         },
         (error) => {
           console.log("FAILED...", error);
-          
+
         }
       );
     });
