@@ -413,8 +413,8 @@ input:checked ~ .menu-content {
 }
 
 .typing-hello {
-	width: 4.75ch;
-	animation: typing 0.75s steps(6), blink 0.5s step-end infinite alternate;
+	width: 7ch;
+	animation: typing 0.75s steps(6), blink 0.75s step-end infinite alternate;
 	white-space: nowrap;
 	overflow: hidden;
 	border-right: 1px solid;
@@ -423,8 +423,8 @@ input:checked ~ .menu-content {
 }
 
 .typing-projects {
-	width: 6.7ch;
-	animation: typing 0.75s steps(8), blink 0.5s step-end infinite alternate;
+	width: 9ch;
+	animation: typing 0.75s steps(9), blink 0.75s step-end infinite alternate;
 	white-space: nowrap;
 	overflow: hidden;
 	border-right: 1px solid;
@@ -433,8 +433,8 @@ input:checked ~ .menu-content {
 }
 
 .typing-contact {
-	width: 10ch;
-	animation: typing 0.75s steps(11), blink 0.5s step-end infinite alternate;
+	width: 13ch;
+	animation: typing 0.75s steps(11), blink 0.75s step-end infinite alternate;
 	white-space: nowrap;
 	overflow: hidden;
 	border-right: 1px solid;
