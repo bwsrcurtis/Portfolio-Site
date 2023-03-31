@@ -413,7 +413,7 @@ input:checked ~ .menu-content {
 }
 
 .typing-hello {
-	width: 7ch;
+	width: 8rem;
 	animation: typing 0.75s steps(6), blink 0.75s step-end infinite alternate;
 	white-space: nowrap;
 	overflow: hidden;
@@ -423,7 +423,7 @@ input:checked ~ .menu-content {
 }
 
 .typing-projects {
-	width: 9ch;
+	width: 9rem;
 	animation: typing 0.75s steps(9), blink 0.75s step-end infinite alternate;
 	white-space: nowrap;
 	overflow: hidden;
@@ -433,7 +433,7 @@ input:checked ~ .menu-content {
 }
 
 .typing-contact {
-	width: 13ch;
+	width: 17rem;
 	animation: typing 0.75s steps(11), blink 0.75s step-end infinite alternate;
 	white-space: nowrap;
 	overflow: hidden;
